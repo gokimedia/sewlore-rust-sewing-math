@@ -1,0 +1,27 @@
+[package]
+name = "sewlore-sewing-math"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Typed sewing measurement arithmetic and an offline JSON CLI for stretch, recovery, and two-axis print scale"
+license = "MIT"
+readme = "README.md"
+homepage = "https://sewlore.com/pages/rust-sewing-measurements"
+repository = "https://github.com/gokimedia/sewlore-rust-sewing-math"
+documentation = "https://docs.rs/sewlore-sewing-math"
+keywords = ["sewing", "measurement", "print-scale", "stretch", "units"]
+categories = ["mathematics", "command-line-utilities"]
+include = ["/src/**", "/tests/**", "/examples/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE", "/NOTICE", "/CHANGELOG.md"]
+build = false
+
+[[bin]]
+name = "sewlore-measure"
+path = "src/bin/sewlore-measure.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+

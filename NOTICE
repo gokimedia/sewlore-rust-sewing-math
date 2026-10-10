@@ -1,0 +1,16 @@
+Sewlore Sewing Math for Rust 0.1.0
+Copyright (c) 2026 Sewlore
+
+The stretch, residual change, recovered extension, and print-scale formula
+definitions and floating-point tolerance handling are adapted from
+@sewingselami/sewlore-sewing-math 0.1.0, copyright (c) 2026 Sewlore,
+licensed under the MIT License. The original MIT notice is retained in LICENSE.
+Upstream source:
+https://github.com/gokimedia/sewlore-sewing-tools
+Upstream package:
+https://www.npmjs.com/package/@sewingselami/sewlore-sewing-math
+
+This implementation adds typed explicit units, Rust result/error types, and an
+offline command line interface. It does not copy the GPL-licensed Drupal module
+or rely on any third-party runtime library. No physical validation claim is made.
+
